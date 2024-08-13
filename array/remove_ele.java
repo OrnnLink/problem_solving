@@ -30,6 +30,16 @@ class Solution {
 		System.out.println("Count: " + count);
 		return nums.length - count; 
     }
+
+	/*
+def remove_element(nums, val):
+    i = 0
+    for j in range(len(nums)):
+        if nums[j] != val:
+            nums[i] = nums[j]
+            i += 1
+    return i
+	*/
 		
 
 	public static void main(String[] args) {
